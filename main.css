@@ -1,0 +1,23 @@
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 8px 8px 8px blue;
+    cursor: pointer;
+}
+
+.card-body {
+    /* text-align: center; */
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
